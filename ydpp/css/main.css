@@ -1,0 +1,173 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.body_wrapper{
+    width: 1366px;
+    height: 941px;
+    background: url( '../img/background.jpg' ) no-repeat;
+    margin: 0 auto;    
+}
+
+header{
+    width: 100%;
+    height: 227px;
+    background: rgb( 0, 0, 0); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #4c4c4c 0%, #000000 5%, #595959 18%, #666666 45%, #474747 56%, #2c2c2c 75%, #2b2b2b 85%, #1c1c1c 91%, #111111 93%, #131313 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#4c4c4c), color-stop(5%,#000000), color-stop(18%,#595959), color-stop(45%,#666666), color-stop(56%,#474747), color-stop(75%,#2c2c2c), color-stop(85%,#2b2b2b), color-stop(91%,#1c1c1c), color-stop(93%,#111111), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #4c4c4c 0%,#000000 5%,#595959 18%,#666666 45%,#474747 56%,#2c2c2c 75%,#2b2b2b 85%,#1c1c1c 91%,#111111 93%,#131313 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #4c4c4c 0%,#000000 5%,#595959 18%,#666666 45%,#474747 56%,#2c2c2c 75%,#2b2b2b 85%,#1c1c1c 91%,#111111 93%,#131313 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #4c4c4c 0%,#000000 5%,#595959 18%,#666666 45%,#474747 56%,#2c2c2c 75%,#2b2b2b 85%,#1c1c1c 91%,#111111 93%,#131313 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #4c4c4c 0%,#000000 5%,#595959 18%,#666666 45%,#474747 56%,#2c2c2c 75%,#2b2b2b 85%,#1c1c1c 91%,#111111 93%,#131313 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: rgba( 0, 0, 0, 0.4);
+}
+
+.header_wrapper{
+    width: 1055px;
+    height: 227px;
+    margin: 0 auto;
+}
+
+.header_left{
+    width: 835px;
+    height: 152px;
+    float: left;
+    color: #fff;
+    font-size: 19pt;
+    font-family: Blackoak Std;
+    font-style: normal;
+    padding-top: 75px;
+    line-height: 40px;
+}
+
+.header_right{
+    width: 217px;
+    height: 227px;
+    float: right;
+    padding-top: 20px;
+}
+
+article{
+    width: 100%;
+    height: 460px;
+}
+
+.article_wrapper{
+    width: 978px;
+    height: 460px;
+    margin: 0 auto;
+}
+
+.article_wrapper img{
+    float: left;
+    position: relative;
+}
+
+.article_wrapper img.poker{
+    margin-top: 20px;
+    z-index: 5;
+}
+
+.article_wrapper img.twitter{
+    margin-top: 50px;
+    margin-left: -63px;
+    z-index: 4;
+}
+
+.article_wrapper img.facebook{
+    margin-top: 57px;
+    margin-left: -13px;
+    z-index: 3;
+}
+
+.article_wrapper img.email{
+    margin-top: 63px;
+    margin-left: -11px;
+    z-index: 2;
+}
+
+footer{
+    width: 100%;
+    height: 252px;
+}
+
+.footer_wrapper{
+    width: 960px;
+    height: 252px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: inset 0 20px 22px -10px rgb(0,0,0);
+    -webkit-box-shadow: inset 0 20px 22px -10px rgb(0,0,0);
+    -moz-box-shadow: inset 0 20px 22px -10px rgb(0,0,0);
+}
+
+.color_button_group{
+    width: 560px;
+    height: 52px;
+    margin: -25px auto 39px 230px;
+    position: absolute;
+}
+
+.color_button_group div{
+    border: 0;
+    color: #fff;
+    width: 175px;
+    height: 50px;
+    font-size: 17pt;
+    font-weight: bold;
+    text-align: center;
+    line-height: 34pt;
+    float: left;
+}
+
+.color_button_group a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.hiring{
+    background-color: #ff8a00;
+}
+
+.inquiries{
+    background-color: #598527;
+    margin-left: 15px;
+}
+
+.faq{
+    background-color: #d31145;
+    margin-left: 15px;
+}
+
+.picture_button_group{
+    width: 830px;
+    height: 158px;
+    margin: 60px auto auto 67px;
+    position: absolute;
+}
+
+.picture_button_group div{
+    border: 13px solid rgb(0,0,0);
+    border: 13px solid rgba(0,0,0, 0.3);
+    width: 241px;
+    float: left;
+    height: 130px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.illus, .sketch{
+    margin-left: 10px;
+}
+
+.download{
+    width: 59px;
+    height: 59px;
+    background: url('../img/download.png') no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: -10px;
+}
